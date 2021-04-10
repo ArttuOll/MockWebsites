@@ -1,3 +1,10 @@
+.header {
+  background-color: hsl(356, 100%, 66%);
+  background-image: url("images/bg-pattern-intro.svg");
+  background-size: cover;
+  background-position: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
