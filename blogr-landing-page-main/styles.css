@@ -1,8 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Used to align all text content (and buttons) on the page */
+.default-margins {
+  width: 90%;
+  max-width: 1024px;
+  margin: auto;
+}
+
 .header {
   background-color: hsl(356, 100%, 66%);
   background-image: url("images/bg-pattern-intro.svg");
   background-size: cover;
   background-position: center;
+}
+
+nav {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 5vh 0;
+}
+
+nav div button {
+  margin-left: 4vw;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.header-buttons {
+  padding-right: 5vw;
+  position: absolute;
+  right: 0;
 }
 
 .attribution {
