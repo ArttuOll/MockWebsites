@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Used to align all text content (and buttons) on the page */
 .default-margins {
   width: 90%;
@@ -27,7 +31,11 @@ nav {
   padding: 5vh 0;
 }
 
-nav div button {
+ul.main-menu {
+  display: flex;
+}
+
+ul.main-menu button {
   margin-left: 4vw;
 }
 
@@ -35,10 +43,15 @@ nav div button {
   display: none;
 }
 
-.header-buttons {
-  padding-right: 5vw;
+ul.login-buttons {
+  display: flex;
   position: absolute;
   right: 0;
+}
+
+ul.login-buttons li button {
+  margin-left: 4vw;
+  padding-right: 5vw;
 }
 
 .attribution {
