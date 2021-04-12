@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 
+:root {
+  --nav-bar-white: rgba(100%, 100%, 100%, 80%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +32,8 @@ ul {
   background-position: center;
 }
 
+/* Navbar */
+
 nav {
   display: flex;
   position: relative;
@@ -42,10 +48,15 @@ nav ul li button {
 
 ul.main-menu {
   display: flex;
+  margin-left: 1vw;
 }
 
 ul.main-menu button {
-  margin-left: 4vw;
+  margin-left: 2vw;
+  border: none;
+  text-align: center;
+  background: none;
+  color: var(--nav-bar-white);
 }
 
 .dropdown-menu {
