@@ -3,6 +3,8 @@
 
 :root {
   --nav-bar-white: rgba(100%, 100%, 100%, 80%);
+  --background-red: hsl(356, 100%, 66%);
+  --hover-red: hsl(355, 100%, 74%);
 }
 
 * {
@@ -26,7 +28,7 @@ ul {
 }
 
 .header {
-  background-color: hsl(356, 100%, 66%);
+  background-color: var(--background-red);
   background-image: url("images/bg-pattern-intro.svg");
   background-size: cover;
   background-position: center;
@@ -44,6 +46,9 @@ nav {
 nav ul li button {
   font-family: "Ubuntu", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 
 ul.main-menu {
@@ -54,9 +59,12 @@ ul.main-menu {
 ul.main-menu button {
   margin-left: 2vw;
   border: none;
-  text-align: center;
   background: none;
   color: var(--nav-bar-white);
+}
+
+ul.main-menu button:hover {
+  text-decoration: underline;
 }
 
 .dropdown-menu {
@@ -67,11 +75,35 @@ ul.login-buttons {
   display: flex;
   position: absolute;
   right: 0;
+  align-items: center;
 }
 
-ul.login-buttons li button {
-  margin-left: 4vw;
-  padding-right: 5vw;
+ul.login-buttons button {
+  margin-left: 1vw;
+  text-align: center;
+  border: none;
+  display: inline-block;
+}
+
+ul.login-buttons button.login-button {
+  background: none;
+  color: var(--nav-bar-white);
+}
+
+ul.login-buttons button.login-button:hover {
+  text-decoration: underline;
+}
+
+ul.login-buttons button.sign-up-button {
+  background-color: rgba(100%, 100%, 100%, 100%);
+  color: var(--background-red);
+  border-radius: 30px;
+  padding: 10px 23px;
+}
+
+ul.login-buttons button.sign-up-button:hover {
+  background-color: var(--hover-red);
+  color: var(--nav-bar-white);
 }
 
 .attribution {
