@@ -30,14 +30,32 @@ ul {
 }
 
 /* General classes */
+
 .text-button {
   background: none;
+  color: var(--nav-bar-white);
+  outline: none;
+  border: none;
+}
+
+.rounded-white-button {
+  background-color: rgba(100%, 100%, 100%, 100%);
+  color: var(--background-red);
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+
+.rounded-white-button:hover {
+  background-color: var(--hover-red);
   color: var(--nav-bar-white);
 }
 
 .text-button:hover {
   text-decoration: underline;
 }
+
+/* Page element styles */
 
 .header {
   background-color: var(--background-red);
@@ -64,8 +82,6 @@ nav ul li button {
   font-family: "Ubuntu", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   cursor: pointer;
-  outline: none;
-  border: none;
 }
 
 ul.main-menu {
@@ -96,15 +112,53 @@ ul.login-buttons button {
 }
 
 ul.login-buttons button.sign-up-button {
-  background-color: rgba(100%, 100%, 100%, 100%);
-  color: var(--background-red);
-  border-radius: 30px;
   padding: 10px 23px;
 }
 
-ul.login-buttons button.sign-up-button:hover {
-  background-color: var(--hover-red);
-  color: var(--nav-bar-white);
+.header-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 3vh;
+  color: white;
+}
+
+h1 strong {
+  font-size: 3rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1vh;
+}
+
+.header-buttons {
+  padding: 10px 15px;
+}
+
+button.start-button {
+  margin-right: 0.5vw;
+  font-weight: 600;
+  padding: inherit;
+}
+
+button.learn-button {
+  background: none;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid;
+  padding: inherit;
+}
+
+button.learn-button {
+  margin-left: 0.5vw;
 }
 
 .attribution {
