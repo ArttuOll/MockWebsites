@@ -7,6 +7,8 @@
   --hover-red: hsl(355, 100%, 74%);
 }
 
+/* General rules */
+
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +27,16 @@ ul {
   width: 90%;
   max-width: 1024px;
   margin: auto;
+}
+
+/* General classes */
+.text-button {
+  background: none;
+  color: var(--nav-bar-white);
+}
+
+.text-button:hover {
+  text-decoration: underline;
 }
 
 .header {
@@ -63,13 +75,6 @@ ul.main-menu {
 
 ul.main-menu button {
   margin-left: 2vw;
-  border: none;
-  background: none;
-  color: var(--nav-bar-white);
-}
-
-ul.main-menu button:hover {
-  text-decoration: underline;
 }
 
 .dropdown-menu {
@@ -88,15 +93,6 @@ ul.login-buttons button {
   text-align: center;
   border: none;
   display: inline-block;
-}
-
-ul.login-buttons button.login-button {
-  background: none;
-  color: var(--nav-bar-white);
-}
-
-ul.login-buttons button.login-button:hover {
-  text-decoration: underline;
 }
 
 ul.login-buttons button.sign-up-button {
