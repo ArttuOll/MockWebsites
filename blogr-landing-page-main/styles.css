@@ -5,6 +5,8 @@
   --nav-bar-white: rgba(100%, 100%, 100%, 80%);
   --background-red: hsl(356, 100%, 66%);
   --hover-red: hsl(355, 100%, 74%);
+  --header-blue: hsl(208, 49%, 24%);
+  --paragraph-gray: hsl(207, 13%, 34%);
 }
 
 /* General rules */
@@ -163,10 +165,49 @@ button.learn-button {
   margin-left: 0.5vw;
 }
 
+h2.dark-header {
+  margin-top: 15vh;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--header-blue);
+}
+
+div.content-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9vh;
+}
+
+div.content-row h3 {
+  color: var(--header-blue);
+  font-size: 1.5rem;
+  margin-bottom: 2vh;
+  position: relative;
+}
+
+div.content-row p {
+  color: var(--header-blue);
+  margin-bottom: 8vh;
+  color: var(--paragraph-gray);
+  width: 30vw;
+}
+
+div.content-row #editor-image {
+  position: absolute;
+  top: 64%;
+  left: 53%;
+  width: 721px;
+}
+
+#phone-image {
+  padding: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
