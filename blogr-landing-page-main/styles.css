@@ -196,7 +196,7 @@ div.content-row #editor-image {
   position: absolute;
   top: 64%;
   left: 53%;
-  width: 721px;
+  width: calc(100vw - 53%);
 }
 
 #phone-image {
