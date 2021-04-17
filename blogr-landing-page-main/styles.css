@@ -172,10 +172,13 @@ h2.dark-header {
   color: var(--header-blue);
 }
 
+/* Editor section */
+
 div.content-row {
   display: flex;
   flex-direction: row;
   margin-top: 9vh;
+  align-items: center;
 }
 
 div.content-row h3 {
@@ -200,8 +203,43 @@ div.content-row #editor-image {
   width: calc(100vw - 53%);
 }
 
+/* Phone section */
+
 #phone-image {
-  padding: 0;
+  position: relative;
+  bottom: 7vh;
+  margin-left: -3%;
+}
+
+div.content-row .phone-section {
+  margin-left: 4vw;
+  margin-bottom: 18vh;
+}
+
+div.content-row .phone-section h2 {
+  margin-bottom: 2vh;
+  color: white;
+  font-size: 2rem;
+}
+
+div.content-row .phone-section p {
+  margin-bottom: 2vh;
+  color: var(--nav-bar-white);
+}
+
+.phone-section-background {
+  height: 40vh;
+  background-color: var(--header-blue);
+  background-image: linear-gradient(
+      to right,
+      rgba(44, 45, 63, 0.2),
+      rgba(63, 65, 100, 0.2)
+    ),
+    url("images/bg-pattern-circles.svg");
+  background-position: -50% 120%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 75px;
+  border-top-right-radius: 75px;
 }
 
 .attribution {
