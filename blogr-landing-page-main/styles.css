@@ -190,6 +190,7 @@ div.content-row p {
   margin-bottom: 8vh;
   color: var(--paragraph-gray);
   width: 30vw;
+  line-height: 1.8rem;
 }
 
 div.content-row #editor-image {
