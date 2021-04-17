@@ -7,6 +7,7 @@
   --hover-red: hsl(355, 100%, 74%);
   --header-blue: hsl(208, 49%, 24%);
   --paragraph-gray: hsl(207, 13%, 34%);
+  --footer-black: hsl(240, 10%, 16%);
 }
 
 /* General rules */
@@ -22,6 +23,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Used to align all text content (and buttons) on the page */
@@ -251,11 +256,49 @@ div.content-row #laptop-image {
 
 /* Footer */
 
+footer {
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+  background-color: var(--footer-black);
+  border-top-right-radius: 75px;
+}
+
+.footer-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5vw 0 5vw;
+}
+
+.footer-list h4 {
+  color: white;
+  padding-bottom: 2vh;
+  font-family: "Ubuntu", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.footer-list ul li a {
+  color: var(--nav-bar-white);
+  font-size: 0.8rem;
+}
+
+.footer-list ul li {
+  margin-bottom: 0.6vh;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  width: 6vw;
+  color: var(--nav-bar-white);
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--nav-bar-white);
 }
