@@ -172,8 +172,6 @@ h2.dark-header {
   color: var(--header-blue);
 }
 
-/* Editor section */
-
 div.content-row {
   display: flex;
   flex-direction: row;
@@ -195,6 +193,8 @@ div.content-row p {
   width: 30vw;
   line-height: 1.8rem;
 }
+
+/* Editor section */
 
 div.content-row #editor-image {
   position: absolute;
@@ -241,6 +241,15 @@ div.content-row .phone-section p {
   border-bottom-left-radius: 75px;
   border-top-right-radius: 75px;
 }
+
+/* Laptop section */
+
+div.content-row #laptop-image {
+  margin-left: -28vw;
+  margin-bottom: 7vh;
+}
+
+/* Footer */
 
 .attribution {
   font-size: 11px;
