@@ -164,6 +164,12 @@ button.learn-button {
   outline: none;
   border: 1px solid;
   padding: inherit;
+  font-weight: 600;
+}
+
+button.learn-button:hover {
+  background-color: white;
+  color: var(--hover-red);
 }
 
 button.learn-button {
