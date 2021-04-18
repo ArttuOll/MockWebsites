@@ -294,6 +294,10 @@ footer {
   font-size: 0.8rem;
 }
 
+.footer-list ul li a:hover {
+  text-decoration: underline;
+}
+
 .footer-list ul li {
   margin-bottom: 0.6vh;
 }
