@@ -24,10 +24,10 @@
         </a>
         <ul class="main-menu">
           <li>
-            <div>
-              <button class="text-button">Product</button>
+            <div class="dropdown-menu">
+              <button class="text-button dropdown-button">Product</button>
               <img src="images/icon-arrow-light.svg" />
-              <div class="dropdown-menu">
+              <div class="dropdown-content">
                 <a href="#">Overview</a>
                 <a href="#">Pricing</a>
                 <a href="#">Marketplace</a>
@@ -37,10 +37,10 @@
             </div>
           </li>
           <li>
-            <div>
-              <button class="text-button">Company</button>
+            <div class="dropdown-menu">
+              <button class="text-button dropdown-button">Company</button>
               <img src="images/icon-arrow-light.svg" />
-              <div class="dropdown-menu">
+              <div class="dropdown-content">
                 <a href="#">About</a>
                 <a href="#">Team</a>
                 <a href="#">Blog</a>
@@ -49,10 +49,10 @@
             </div>
           </li>
           <li>
-            <div>
-              <button class="text-button">Connect</button>
+            <div class="dropdown-menu">
+              <button class="text-button dropdown-button">Connect</button>
               <img src="images/icon-arrow-light.svg" />
-              <div class="dropdown-menu">
+              <div class="dropdown-content">
                 <a href="#">Contact</a>
                 <a href="#">Newsletter</a>
                 <a href="#">LinkedIn</a>
@@ -108,7 +108,11 @@
         </div>
         <img
           id="editor-image"
-          src="images/illustration-editor-desktop.svg"
+          srcset="
+            images/illustration-editor-desktop.svg 1440w,
+            images/illustration-editor-mobile.svg   375w
+          "
+          sizes="(min-width: 1024px) 50vw, 96vw"
           alt="Blogr editor illustration"
         />
       </div>
