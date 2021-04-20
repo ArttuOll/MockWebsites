@@ -49,11 +49,12 @@ a {
 .rounded-white-button:hover {
   background-color: var(--hover-red);
   color: var(--nav-bar-white);
+  text-decoration: none;
 }
 
 /* Page element styles */
 
-.header {
+body > div {
   background-color: var(--background-red);
   background-image: linear-gradient(
       to right,
@@ -101,6 +102,24 @@ ul > li button:hover {
   text-decoration: underline;
 }
 
+nav > ul:last-of-type {
+  display: flex;
+  position: absolute;
+  right: 0;
+  align-items: center;
+}
+
+nav > ul:last-of-type button {
+  margin-left: 1vw;
+  text-align: center;
+  border: none;
+  display: inline-block;
+}
+
+nav > ul:last-of-type button:last-of-type {
+  padding: 10px 23px;
+}
+
 /* Dropdown menus */
 
 .dropdown-menu {
@@ -146,25 +165,9 @@ ul > li button:hover {
   text-decoration: underline;
 }
 
-nav > ul:last-of-type {
-  display: flex;
-  position: absolute;
-  right: 0;
-  align-items: center;
-}
+/* Header section */
 
-nav > ul:last-of-type button {
-  margin-left: 1vw;
-  text-align: center;
-  border: none;
-  display: inline-block;
-}
-
-nav > ul:last-of-type button:last-of-type {
-  padding: 10px 23px;
-}
-
-.header-section {
+nav ~ section {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -188,17 +191,17 @@ h1 strong {
   margin-bottom: 1vh;
 }
 
-.header-buttons {
+section:first-of-type > div {
   padding: 10px 15px;
 }
 
-button.start-button {
+section:first-of-type > div button:first-child {
   margin-right: 0.5vw;
   font-weight: 600;
   padding: inherit;
 }
 
-button.learn-button {
+section:first-of-type > div button:nth-child(2) {
   background: none;
   color: white;
   border-radius: 30px;
@@ -206,15 +209,12 @@ button.learn-button {
   border: 1px solid;
   padding: inherit;
   font-weight: 600;
+  margin-left: 0.5vw;
 }
 
-button.learn-button:hover {
+section:first-of-type > div button:nth-child(2):hover {
   background-color: white;
   color: var(--hover-red);
-}
-
-button.learn-button {
-  margin-left: 0.5vw;
 }
 
 h2.dark-header {
