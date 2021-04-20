@@ -38,17 +38,6 @@ a {
 
 /* General classes */
 
-.text-button {
-  background: none;
-  color: var(--nav-bar-white);
-  outline: none;
-  border: none;
-}
-
-.text-button:hover {
-  text-decoration: underline;
-}
-
 .rounded-white-button {
   background-color: rgba(100%, 100%, 100%, 100%);
   color: var(--background-red);
@@ -92,13 +81,24 @@ nav ul li button {
   cursor: pointer;
 }
 
-ul.main-menu {
+nav ul {
   display: flex;
   margin-left: 1vw;
 }
 
-ul.main-menu button {
+nav ul button {
   margin-left: 2vw;
+}
+
+ul > li button {
+  background: none;
+  color: var(--nav-bar-white);
+  outline: none;
+  border: none;
+}
+
+ul > li button:hover {
+  text-decoration: underline;
 }
 
 /* Dropdown menus */
@@ -146,21 +146,21 @@ ul.main-menu button {
   text-decoration: underline;
 }
 
-ul.login-buttons {
+nav > ul:last-of-type {
   display: flex;
   position: absolute;
   right: 0;
   align-items: center;
 }
 
-ul.login-buttons button {
+nav > ul:last-of-type button {
   margin-left: 1vw;
   text-align: center;
   border: none;
   display: inline-block;
 }
 
-ul.login-buttons button.sign-up-button {
+nav > ul:last-of-type button:last-of-type {
   padding: 10px 23px;
 }
 
