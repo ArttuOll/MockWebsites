@@ -52,6 +52,13 @@ a {
   text-decoration: none;
 }
 
+.content-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 9vh;
+  align-items: center;
+}
+
 /* Page element styles */
 
 body > div {
@@ -217,28 +224,23 @@ section:first-of-type > div button:nth-child(2):hover {
   color: var(--hover-red);
 }
 
-h2.dark-header {
+/* Editor Section */
+
+section > h2 {
   margin-top: 15vh;
   text-align: center;
   font-size: 2rem;
   color: var(--header-blue);
 }
 
-div.content-row {
-  display: flex;
-  flex-direction: row;
-  margin-top: 9vh;
-  align-items: center;
-}
-
-div.content-row h3 {
+.content-row h3 {
   color: var(--header-blue);
   font-size: 1.5rem;
   margin-bottom: 2vh;
   position: relative;
 }
 
-div.content-row p {
+.content-row p {
   color: var(--header-blue);
   margin-bottom: 8vh;
   color: var(--paragraph-gray);
@@ -246,9 +248,7 @@ div.content-row p {
   line-height: 1.8rem;
 }
 
-/* Editor section */
-
-div.content-row #editor-image {
+#editor-image {
   position: absolute;
   top: 62%;
   left: 53%;
