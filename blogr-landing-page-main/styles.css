@@ -45,6 +45,10 @@ a {
   border: none;
 }
 
+.text-button:hover {
+  text-decoration: underline;
+}
+
 .rounded-white-button {
   background-color: rgba(100%, 100%, 100%, 100%);
   color: var(--background-red);
