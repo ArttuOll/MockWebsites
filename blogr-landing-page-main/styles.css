@@ -311,7 +311,7 @@ footer {
   border-top-right-radius: 75px;
 }
 
-.footer-lists {
+footer > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -323,7 +323,7 @@ footer {
   margin: 0 5vw 0 5vw;
 }
 
-.footer-list h4 {
+footer h4 {
   color: white;
   padding-bottom: 2vh;
   font-family: "Ubuntu", Tahoma, Geneva, Verdana, sans-serif;
@@ -331,16 +331,16 @@ footer {
   font-size: 0.8rem;
 }
 
-.footer-list ul li a {
+footer ul li a {
   color: var(--nav-bar-white);
   font-size: 0.8rem;
 }
 
-.footer-list ul li a:hover {
+footer ul li a:hover {
   text-decoration: underline;
 }
 
-.footer-list ul li {
+footer ul li {
   margin-bottom: 0.6vh;
 }
 
