@@ -65,6 +65,10 @@ h2 {
   text-decoration: none;
 }
 
+.rounded-white-button:focus {
+  text-decoration: underline;
+}
+
 .content-row {
   display: flex;
   flex-direction: row;
@@ -120,6 +124,10 @@ ul > li button {
 
 ul > li button:hover {
   text-decoration: underline;
+}
+
+ul > li button:focus {
+  color: var(--paragraph-gray);
 }
 
 nav > ul:last-of-type {
@@ -237,6 +245,10 @@ section:first-of-type > div button:nth-child(2):hover {
   color: var(--hover-red);
 }
 
+section:first-of-type > div button:nth-child(2):focus {
+  text-decoration: underline;
+}
+
 /* Editor Section */
 
 section > h2 {
@@ -346,6 +358,10 @@ footer ul li a {
 
 footer ul li a:hover {
   text-decoration: underline;
+}
+
+footer ul li a:focus {
+  color: gray;
 }
 
 footer ul li {
