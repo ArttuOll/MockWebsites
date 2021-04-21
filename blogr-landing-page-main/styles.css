@@ -248,7 +248,7 @@ section > h2 {
   line-height: 1.8rem;
 }
 
-#editor-image {
+section:first-of-type img {
   position: absolute;
   top: 62%;
   left: 53%;
@@ -257,7 +257,7 @@ section > h2 {
 
 /* Phone section */
 
-#phone-image {
+section:nth-of-type(2) img {
   position: relative;
   bottom: 7vh;
   margin-left: -3%;
@@ -297,7 +297,7 @@ section:nth-of-type(2) > div {
 
 /* Laptop section */
 
-div.content-row #laptop-image {
+section:nth-of-type(3) img {
   margin-left: -28vw;
   margin-bottom: 7vh;
 }
