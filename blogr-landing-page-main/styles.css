@@ -200,10 +200,6 @@ nav > ul:first-of-type button:hover::after {
   display: block;
 }
 
-.dropdown-menu:hover .dropdown-button {
-  text-decoration: underline;
-}
-
 /* Header section */
 
 nav ~ section {
