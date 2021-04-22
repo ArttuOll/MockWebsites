@@ -100,7 +100,7 @@ nav {
   padding: 5vh 0;
 }
 
-nav ul li button {
+nav ul button {
   font-family: "Ubuntu", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   cursor: pointer;
@@ -146,6 +146,17 @@ nav > ul:last-of-type button {
 
 nav > ul:last-of-type button:last-of-type {
   padding: 10px 23px;
+}
+
+nav > ul:first-of-type button::after {
+  display: inline-block;
+  margin-left: 5px;
+  content: url(images/icon-arrow-light.svg);
+}
+
+nav > ul:first-of-type button:hover::after {
+  transform: rotate(-180deg);
+  transition: all 0.2s;
 }
 
 /* Dropdown menus */
