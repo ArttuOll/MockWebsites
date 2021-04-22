@@ -291,17 +291,17 @@ section:nth-of-type(2) img {
   margin-left: -3%;
 }
 
-.content-row .phone-section {
+section:nth-of-type(2) .content-row div {
   margin-left: 4vw;
   margin-bottom: 18vh;
 }
 
-.phone-section h2 {
+section:nth-of-type(2) h2 {
   margin-bottom: 2vh;
   color: white;
 }
 
-.phone-section p {
+section:nth-of-type(2) p {
   margin-bottom: 2vh;
   color: var(--nav-bar-white);
 }
@@ -325,7 +325,7 @@ section:nth-of-type(2) > div {
 /* Laptop section */
 
 section:nth-of-type(3) img {
-  margin-left: -28vw;
+  margin-left: -24vw;
   margin-bottom: 7vh;
 }
 
