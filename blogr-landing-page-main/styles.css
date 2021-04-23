@@ -316,7 +316,7 @@ section:nth-of-type(2) > div {
       rgba(63, 65, 100, 0.2)
     ),
     url("images/bg-pattern-circles.svg");
-  background-position: -50% 120%;
+  background-position: -50% 87%;
   background-repeat: no-repeat;
   border-bottom-left-radius: 75px;
   border-top-right-radius: 75px;
@@ -325,8 +325,13 @@ section:nth-of-type(2) > div {
 /* Laptop section */
 
 section:nth-of-type(3) img {
-  margin-left: -24vw;
+  margin-left: -28vw;
   margin-bottom: 7vh;
+}
+
+section:nth-of-type(3) p,
+section:nth-of-type(3) h3 {
+  margin-left: 1vw;
 }
 
 /* Footer */
