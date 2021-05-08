@@ -78,7 +78,7 @@ h2 {
 
 /* Page element styles */
 
-body > div {
+body > header {
   background-color: var(--background-red);
   background-image: linear-gradient(
       to right,
