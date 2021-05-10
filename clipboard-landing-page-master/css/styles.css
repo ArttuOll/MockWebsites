@@ -7,6 +7,20 @@
   --grayish-blue: hsl(201, 11%, 66%);
 }
 
+body {
+  font-family: "Bai Jamjuree", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Styles affecting individual sections or elements on the page */
+
 .attribution {
   font-size: 11px;
   text-align: center;
