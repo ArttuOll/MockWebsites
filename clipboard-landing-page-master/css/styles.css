@@ -7,6 +7,8 @@
   --grayish-blue: hsl(201, 11%, 66%);
 }
 
+/* Global styles */
+
 body {
   font-family: "Bai Jamjuree", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -20,6 +22,19 @@ a {
 }
 
 /* Styles affecting individual sections or elements on the page */
+
+header {
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  height: 28vh;
+  position: relative;
+}
+
+header > img {
+  position: absolute;
+  top: calc(65% - 62px);
+  left: calc(50% - 62px);
+}
 
 .attribution {
   font-size: 11px;
