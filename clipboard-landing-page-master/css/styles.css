@@ -24,7 +24,12 @@ a {
 /* Styles affecting individual sections or elements on the page */
 
 header {
-  background-image: url(../images/bg-header-desktop.png);
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 255),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../images/bg-header-desktop.png);
   background-repeat: no-repeat;
   height: 28vh;
   position: relative;
