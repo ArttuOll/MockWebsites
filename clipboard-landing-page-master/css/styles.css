@@ -65,8 +65,29 @@ header > img {
 
 /* Hero section */
 
-article section:first-of-type p {
-  margin: auto var(--margin-p);
+article section:first-of-type div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+article section:first-of-type button {
+  margin: auto 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  background-color: var(--strong-cyan);
+  border-radius: 29px;
+  padding: 16px 25px;
+  box-shadow: 0px 3px 0px hsl(171, 66%, 38%),
+    -5px 20px 20px -20px hsl(171, 66%, 38%);
+}
+
+article section:first-of-type button:nth-of-type(2) {
+  background-color: var(--light-blue);
+  box-shadow: 0px 3px 0px hsl(233, 100%, 60%),
+    -5px 20px 20px -20px hsl(233, 100%, 60%);
 }
 
 .attribution {
