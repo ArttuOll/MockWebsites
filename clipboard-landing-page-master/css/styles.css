@@ -92,8 +92,57 @@ article section:first-of-type button:nth-of-type(2) {
 
 /* Keep track -section */
 
-article section:nth-of-type(2) {
+article > section:nth-of-type(2) {
   margin-top: 10vh;
+}
+
+/* Computer section */
+
+article > section:nth-of-type(3) {
+  display: grid;
+  overflow: hidden;
+  position: relative;
+  grid-auto-rows: 13vh;
+  grid-auto-columns: 50vw;
+  grid-template-areas:
+    "img p1"
+    "img p2"
+    "img p3"
+    ".   . ";
+  margin-top: 6vh;
+}
+
+article section:nth-of-type(3) > img {
+  position: absolute;
+  grid-area: img;
+  width: 50vw;
+  left: -2vw;
+}
+
+article section:nth-of-type(3) > section {
+  position: relative;
+}
+
+article section:nth-of-type(3) > section:first-of-type {
+  grid-area: p1;
+}
+
+article section:nth-of-type(3) > section:nth-of-type(2) {
+  grid-area: p2;
+}
+
+article section:nth-of-type(3) > section:nth-of-type(3) {
+  grid-area: p3;
+}
+
+article section:nth-of-type(3) > section > h2 {
+  text-align: left;
+}
+
+article section:nth-of-type(3) > section p {
+  margin: 0;
+  padding-right: 25vw;
+  text-align: left;
 }
 
 .attribution {
