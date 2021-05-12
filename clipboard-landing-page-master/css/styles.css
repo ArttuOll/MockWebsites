@@ -156,6 +156,36 @@ section:nth-of-type(4) img {
   padding-top: 5vh;
 }
 
+/* Features section */
+
+section:nth-of-type(5) > article {
+  margin-bottom: 4vh;
+}
+
+section:nth-of-type(5) > ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 40px;
+}
+
+section:nth-of-type(5) > ul > li:first-child img {
+  height: 32px;
+  margin-left: calc(50% - 18px);
+}
+
+section:nth-of-type(5) > ul > li:nth-child(2) img {
+  margin-left: calc(50% - 18px);
+}
+
+section:nth-of-type(5) > ul > li:nth-child(3) img {
+  margin-left: calc(50% - 25px);
+}
+
+section:nth-of-type(5) > ul p {
+  margin: 0;
+  width: 25vw;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
