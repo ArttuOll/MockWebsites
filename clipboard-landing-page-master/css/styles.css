@@ -145,6 +145,17 @@ section:nth-of-type(3) > section p {
   text-align: left;
 }
 
+/* Devices section */
+
+section:nth-of-type(4) {
+  margin-top: 10vh;
+}
+
+section:nth-of-type(4) img {
+  margin-left: calc(50% - 452px);
+  padding-top: 5vh;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
