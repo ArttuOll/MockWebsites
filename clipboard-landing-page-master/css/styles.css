@@ -186,6 +186,22 @@ section:nth-of-type(5) > ul p {
   width: 25vw;
 }
 
+/* Company logo section */
+
+aside {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 12vh 0;
+}
+
+aside img:nth-child(3),
+aside img:nth-child(5) {
+  height: 40px;
+}
+
+/* Footer */
+
 .attribution {
   font-size: 11px;
   text-align: center;
