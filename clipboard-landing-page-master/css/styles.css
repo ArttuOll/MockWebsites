@@ -210,11 +210,38 @@ article:nth-of-type(2) > div {
 
 /* Footer */
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: hsl(201, 11%, 96%);
+  height: 12vh;
+  padding: 0 9vh 0 9vh;
+  margin-top: 10vh;
 }
 
-.attribution a {
+footer > img {
+  width: 62px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 11px;
+}
+
+footer li a {
+  color: var(--dark-grayish-blue);
+}
+
+footer p a {
   color: hsl(228, 45%, 44%);
+}
+
+footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer li {
+  margin: 0 1rem;
 }
