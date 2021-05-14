@@ -115,7 +115,6 @@ article > section:nth-of-type(2) {
 
 article > section:nth-of-type(3) {
   display: grid;
-  overflow: hidden;
   position: relative;
   grid-auto-rows: 13vh;
   grid-auto-columns: 50vw;
@@ -130,8 +129,9 @@ article > section:nth-of-type(3) {
 section:nth-of-type(3) > img {
   position: absolute;
   grid-area: img;
-  width: 50vw;
   left: -2vw;
+  max-width: 100%;
+  height: auto;
 }
 
 section:nth-of-type(3) > section {
@@ -179,9 +179,9 @@ section:nth-of-type(3) > section p {
 
   section:nth-of-type(3) > img {
     position: static;
-    margin-left: calc(50% - 277px);
+    margin: 0 25%;
     grid-area: img;
-    width: 50vw;
+    max-width: 50vw;
   }
 
   section:nth-of-type(3) > section {
@@ -206,8 +206,10 @@ section:nth-of-type(4) {
 }
 
 section:nth-of-type(4) img {
-  margin-left: calc(50% - 452px);
   padding-top: 5vh;
+  width: 50%;
+  height: auto;
+  margin: 0 25%;
 }
 
 /* Features section */
@@ -274,7 +276,7 @@ footer {
   align-items: center;
   background-color: hsl(201, 11%, 96%);
   height: 12vh;
-  padding: 0 9vh 0 9vh;
+  padding: 3vh 9vh 0 9vh;
   margin-top: 10vh;
 }
 
@@ -302,6 +304,10 @@ footer p a {
 
 footer > ul {
   display: flex;
+  align-items: center;
+}
+
+footer > ul:first-of-type {
   flex-wrap: wrap;
 }
 
