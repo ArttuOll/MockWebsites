@@ -240,7 +240,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   background-color: hsl(201, 11%, 96%);
-  height: 12vh;
+  height: auto;
   padding: 3vh 9vh 0 9vh;
   margin-top: 10vh;
 }
@@ -337,7 +337,7 @@ footer li {
   }
 }
 
-@media only screen and (max-width: 825px) {
+@media only screen and (max-width: 785px) {
   article > section:nth-of-type(3) {
     display: grid;
     position: static;
@@ -365,5 +365,59 @@ footer li {
     justify-content: space-evenly;
     align-items: center;
     margin: 12vh 10vw;
+  }
+}
+
+@media only screen and (max-width: 641px) {
+  section:first-of-type div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  article button {
+    width: 75%;
+    margin-top: 2vh;
+  }
+
+  article > section:nth-of-type(3) {
+    grid-auto-rows: 12vh;
+  }
+
+  section:nth-of-type(3) > section p {
+    padding: 0 5vw;
+  }
+
+  section:nth-of-type(5) > ul {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  section:nth-of-type(5) > ul > li {
+    margin-bottom: 4vh;
+  }
+
+  section:nth-of-type(5) > ul p {
+    margin: 0;
+    width: auto;
+  }
+
+  footer {
+    flex-flow: column wrap;
+  }
+
+  footer > ul {
+    flex-flow: row wrap;
+    padding-left: 0;
+  }
+
+  footer > ul > li {
+    flex-flow: row wrap;
+    padding-left: 0;
+  }
+
+  footer > ul:first-of-type {
+    flex-flow: column wrap;
+    padding-left: 0;
   }
 }
