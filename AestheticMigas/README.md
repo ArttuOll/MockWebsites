@@ -9,6 +9,8 @@ Kaikki kuvat on julkaistu avoimella lisenssillä PixaBayssa (trust me, bro), mut
 
 ### Kuvia
 
-![Työpöytäversio](https://github.com/ArttuOll/AestheticMigas/blob/master/kuvat/aesthetic_migas_1.png)
-![Mobiiliversio](https://github.com/ArttuOll/AestheticMigas/blob/master/kuvat/aesthetic_migas_2.png)
-![Mobiiliversio](https://github.com/ArttuOll/AestheticMigas/blob/master/kuvat/aesthetic_migas_3.png)
+![Työpöytäversio](https://github.com/ArttuOll/MockWebsites/blob/main/AestheticMigas/screenshots/migas_1.png)
+![Mobiiliversio](https://github.com/ArttuOll/MockWebsites/blob/main/AestheticMigas/screenshots/migas_3.png)
+![Mobiiliversio](https://github.com/ArttuOll/MockWebsites/blob/main/AestheticMigas/screenshots/migas_4.png)
+
+Lisää kuvankaappauksia saatavilla [täällä](https://github.com/ArttuOll/MockWebsites/tree/main/AestheticMigas/screenshots).
