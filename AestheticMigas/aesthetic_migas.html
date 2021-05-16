@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="./aesthetic_migas.js"></script>
+    <script src="./form_validation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <title>Aesthetic Migas</title>
+
+  </head>
+  <body>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-light navbar-custom">
+          <a class="navbar-brand" href="#">
+              <img src="res/logo.png" width="70" height="70" alt="Aesthetic Migas
+                        logo">
+          </a>
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Kombucha</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Letterpress</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Taiyaki</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Godard</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Kinfolk</a>
+                  </li>
+              </ul>
+
+              <ul id="sign" class="navbar-nav">
+                  <button type="button" class="btn btn-round btn-signin"
+                      data-toggle="modal" data-target="#signin_modal">Sing In</button>
+                  <button id="signup-btn" type="button" class="btn btn-round btn-signup"
+                      data-toggle="modal" data-target="#signup_modal">Sign Up</button>
+              </ul>
+
+          </div>
+      </nav>
+
+      <!-- Main Part -->
+      <div id="main" class="container">
+
+          <div id="main-row" class="row mt-4">
+              <div id="leftColumn" class="col-md d-flex flex-column">
+                  <div class="row">
+                      <div class="col-md">
+                          <h1 class="h1">Kickstarter hell</h1>
+
+                          <p class="main-sublabel">
+                          Coloring book craft beer tote bag gluten-free!
+                          </p>
+
+                          <button type="button" class="btn btn-main btn-rounded">
+                              Next Level
+                          </button>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="col-md">
+                  <img class="img-fluid" src="./res/kuvat/kuva1.png"
+                              alt="Mitäänsanomaton kuva">
+              </div>
+          </div>
+
+          <!-- Carousel -->
+          <div class="row">
+              <div class="col-md">
+                  <div class="row flex-grow-1 align-items-end">
+                      <div class="col-md">
+
+                          <!-- Carousel Control -->
+                          <div class="carousel-controls d-flex mt-3">
+                              <p class="mr-5">Succulents paleo ethical trust</p>
+                              <div class="ml-auto">
+                                  <button class="btn btn-circle mr-1 carousel-control" 
+                                          href="#carousel" role="button" data-slide="prev">
+                                      <img src="./res/nuoli_vasen.svg">
+                                  </button>
+                                  <button class="btn btn-circle carousel-control"
+                                          href="#carousel" role="button"
+                                                           data-slide="next">
+                                      <img src="./res/nuoli_oikea.svg">
+                                  </button>
+                              </div>
+                          </div>
+
+                      </div>
+                  </div>
+
+                  <div id="carousel" class="carousel slide mb-3" data-ride="carousel">
+                      <div class="carousel-inner">
+
+                          <div class="carousel-item active">
+                              <div class="row">
+                                  <div class="col-md">
+                                      <img class="d-block w-100 img-responsive" height="300vh" 
+                                           src="./res/kuvat/carousel1.jpg" alt="People having lunch">
+                                  </div>
+                                  <div class="col-md">
+                                      <img class="d-block w-100 img-responsive" height="300vh" 
+                                           src="./res/kuvat/carousel2.png" alt="Social media">
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="carousel-item">
+                              <div class="row">
+                                  <div class="col-md">
+                                      <img class="d-block w-100 img-responsive" height="300vh" 
+                                           src="./res/kuvat/carousel3.png" alt="Biker">
+                                  </div>
+                                  <div class="col-md">
+                                      <img class="d-block w-100 img-responsive" height="300vh" 
+                                           src="./res/kuvat/carousel4.jpg" alt="Cat staring at a fish in a bowl">
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="carousel-item">
+                              <div class="row">
+                                  <div class="col-md">
+                                      <img class="d-block w-100 img-responsive" height="300vh" 
+                                           src="./res/kuvat/carousel5.png" alt="Hands holding a face mask">
+                                  </div>
+                                  <div class="col-md">
+                                      <img class="d-block w-100 img-responsive" height="300vh" 
+                                           src="./res/kuvat/carousel2.png" alt="Social media">
+                                  </div>
+                              </div>
+                          </div>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+
+          <!-- Footer -->
+          <footer class="border-top pt-3 mt-5">
+              <div class="row">
+                  <div class="col-sm ml-2">
+                      <p class="d-block mb-3 text-muted mt-2">&copy; 2020</p>
+                  </div>
+
+                  <div class="col-sm">
+                      <h5>Viral</h5>
+                      <ul class="list-unstyled">
+                          <li >
+                              <a class="text-muted" href="#">Subway tile</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Ramps paleo</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Organic health</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Chambray slwo-carb</a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="col-sm">
+                      <h5>YOLO</h5>
+                      <ul class="list-unstyled">
+                          <li >
+                              <a class="text-muted" href="#">Taxidermy</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Letterpress</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Truffaut</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Fanny pack</a>
+                          </li>
+                      </ul>
+                  </div>
+
+                  <div class="col-sm">
+                      <h5>Yuccie</h5>
+                      <ul class="list-unstyled">
+                          <li >
+                              <a class="text-muted" href="#">Adaptogen</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Celiac deep</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Pinterest</a>
+                          </li>
+                          <li >
+                              <a class="text-muted" href="#">Wayfarers</a>
+                          </li>
+                      </ul>
+                  </div>
+
+              </div>
+          </footer>
+
+          <!-- SignIn Modal -->
+          <div class="modal fade" id="signin_modal" tabindex="-1" role="dialog" 
+              aria-labelledby="signin_modal_label" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="signin_modal_label">
+                              Sign In
+                          </h5>
+                          <button type="button" class="close" data-dismiss="modal" 
+                              aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+
+                          <form>
+                              <div class="form-group">
+                                  <label for="email-input-signin">Email address</label>
+                                  <input type="email" class="form-control" 
+                                  id="email-input-signin" placeholder="Enter email">
+                              </div>
+
+                              <div class="form-group">
+                                  <label for="pwd-input-signin">Password</label>
+                                  <input type="password" class="form-control" 
+                                  id="pwd-input-signin" placeholder="Password">
+                              </div>
+                          </form>
+
+                      </div>
+
+                      <div class="modal-footer">
+                          <button id="signin-btn-modal" type="button" class="btn btn-round
+                              btn-signin">
+                              Sign In
+                          </button>
+                          <button id="signin-cancel-btn-modal" type="button" class="btn btn-round btn-signup"
+                              data-dismiss="modal">
+                              Cancel
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Sign Up Modal -->
+          <div class="modal fade" id="signup_modal" tabindex="-1" role="dialog" 
+              aria-labelledby="signup_modal_label" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="signup_modal_label">
+                              Sign Up
+                          </h5>
+                          <button type="button" class="close" data-dismiss="modal" 
+                              aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+
+                          <form>
+                              <div class="form-group">
+                                  <label for="email-input">Email address</label>
+                                  <input type="email" class="form-control" 
+                                  id="email-input-signup" placeholder="Enter email">
+                              </div>
+
+                              <div class="form-group">
+                                  <label for="pwd-input">Password</label>
+                                  <input type="password" class="form-control" 
+                                  id="pwd-input-signup" placeholder="Password">
+                                  <p id="error-pwd"></p>
+                              </div>
+                              <div class="form-group">
+                                  <label for="pwd-input-repeat-signup">Repeat password</label>
+                                  <input type="password" class="form-control" 
+                                  id="pwd-input-repeat-signup" placeholder="Password">
+                              </div>
+                              <div class="form-check">
+                                  <input type="checkbox" class="form-check-inpu"
+                                  id="tos_check">
+                                  <label for="tos_check"
+                                         class="form-check-label">
+                                      I have read and agree the <a href="#">Terms of
+                                          Service</a>.</label>
+                              </div>
+                              <p id="signup-error" class="ml-1 mt-2"></p>
+                          </form>
+
+                      </div>
+
+                      <div class="modal-footer">
+                          <button id="signup-btn-modal" type="button" 
+                                  class="btn btn-round btn-signup-modal">
+                              Sign Up
+                          </button>
+                          <button id="signup-cancel-btn-modal"type="button" 
+                                  class="btn btn-round btn-signup" data-dismiss="modal">
+                              Cancel
+                          </button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </body>
+</html>
+

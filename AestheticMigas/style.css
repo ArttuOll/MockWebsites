@@ -1,0 +1,121 @@
+.nav-item, .btn  {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.1rem;
+}
+
+.navbar-custom {
+    background-color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link { 
+    color: #9AA6B6;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover { 
+    color: #9AA6B6;
+    background-image: url(./res/dot.png);
+    background-repeat: no-repeat;
+    background-size: 0.6rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-custom .navbar-nav .nav-item:active .nav-link,
+.navbar-custom .navbar-nav .nav-item:hover .nav-link { 
+    color: black;
+}
+
+.navbar-toggler.custom-toggler {
+    border: none;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+#sign .nav-item .nav-link {
+    color: black;
+}
+
+.btn-signup {
+    background-color: #A893C2;
+    color: black;
+    border: 0 none;
+}
+
+.btn-signup:hover, .btn-signup:active, .btn-signup:focus {
+    background-color: #937FAD;
+    box-shadow: none;
+}
+
+.btn-signin, .btn-signup-modal {
+    color: black;
+    border: 0 none;
+}
+
+.btn-signin:hover, .btn-signin:active, .btn-signin:focus {
+    background-color: #9AA6B6;
+    box-shadow: none;
+}
+
+.h1 {
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-sublabel {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    color: #9AA6B6;
+}
+
+.btn-main {
+    background-color: #ADC293;
+    color: white;
+    border: 0 none;
+}
+
+.btn-main:hover, .btn-main:active, .btn-main:focus {
+    color: white;
+    background-color: #8EAC68;
+    box-shadow: none;
+}
+
+.carousel-controls {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.carousel-controls > btn-round {
+    border-radius: 100px;
+}
+
+.img-responsive {
+    border-radius: 25px;
+}
+
+.btn-circle {
+    background-color: #9AA6B6;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    line-height: 0px;
+}
+
+.btn-circle:hover, .btn-circle:active, .btn-circle:focus {
+    background-color: #ABAEB3;
+    box-shadow: none;
+}
+
+#leftColumn {
+    position: relative;
+}
+
+.form-group > label, #signin_modal_label {
+    font-family: Dosis;
+}
+
+#signup-error {
+    font-family: "Roboto", sans-serif;
+    color: darkred;
+}

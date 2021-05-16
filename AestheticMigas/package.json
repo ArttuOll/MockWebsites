@@ -1,0 +1,23 @@
+{
+  "name": "aesthetic_migas",
+  "version": "1.0.0",
+  "description": "A fully responsive and aesthetic mock website",
+  "main": "aesthetic_migas.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArttuOll/AestheticMigas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArttuOll/AestheticMigas/issues"
+  },
+  "homepage": "https://github.com/ArttuOll/AestheticMigas#readme",
+  "devDependencies": {
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.6.1"
+  }
+}
