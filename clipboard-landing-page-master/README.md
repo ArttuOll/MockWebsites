@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshot.jpg)
+Screenshots are available [here](https://github.com/ArttuOll/MockWebsites/tree/main/clipboard-landing-page-master/screenshots).
 
 ## My process
 
