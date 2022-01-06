@@ -21,5 +21,18 @@
 .accordion__label:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+.accordion__label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 12px;
+  height: 6px;
+  background-image: url("images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: transform 0.4s;
+}
 
 /*# sourceMappingURL=styles.css.map */
