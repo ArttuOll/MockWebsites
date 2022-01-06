@@ -36,11 +36,10 @@ body {
     top: 50%;
     transform: translateY(-50%);
     right: 20px;
-    width: 12px;
-    height: 6px;
+    width: 10px;
+    height: 7px;
     background-image: url("images/icon-arrow-down.svg");
     background-repeat: no-repeat;
-    background-size: contain;
     transition: transform 0.4s;
   }
 }
@@ -52,4 +51,12 @@ body {
 
 .accordion__input {
   display: none;
+
+  &:checked ~ .accordion__content {
+    display: block;
+  }
+
+  &:checked ~ .accordion__label::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
 }
