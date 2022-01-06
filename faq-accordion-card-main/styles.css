@@ -1,5 +1,8 @@
-* {
-  color: black;
+.accordion {
+  max-width: 400px;
+  overflow: hidden;
+  font-family: "Kumbh Sans", sans-serif;
+  background: rgba(0, 0, 0, 0);
 }
 
 /*# sourceMappingURL=styles.css.map */
