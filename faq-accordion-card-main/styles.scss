@@ -1,6 +1,24 @@
+.card {
+  background: white;
+}
+
 .accordion {
   max-width: 400px;
   overflow: hidden;
   font-family: "Kumbh Sans", sans-serif;
   background: rgba(0, 0, 0, 0.0);
+}
+
+.accordion__label {
+  display: block;
+  color: hsl(238, 29%, 16%);
+  font-weight: 400;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 }
