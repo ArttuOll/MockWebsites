@@ -1,3 +1,12 @@
+.accordion__content, .accordion__label {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
 .card {
   background: white;
 }
@@ -5,15 +14,13 @@
 .accordion {
   max-width: 400px;
   overflow: hidden;
-  font-family: "Kumbh Sans", sans-serif;
   background: rgba(0, 0, 0, 0);
+  list-style: none;
 }
 
 .accordion__label {
   display: block;
   color: #1d1e35;
-  font-weight: 400;
-  font-size: 1.2rem;
   cursor: pointer;
   position: relative;
   transition: background 0.1s;
@@ -33,6 +40,14 @@
   background-repeat: no-repeat;
   background-size: contain;
   transition: transform 0.4s;
+}
+
+.accordion__content {
+  display: none;
+}
+
+.accordion__input {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
