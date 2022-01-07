@@ -358,3 +358,9 @@ template {
 * {
     background-repeat: no-repeat;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
