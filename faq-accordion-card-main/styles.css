@@ -60,14 +60,20 @@ body {
 }
 
 .accordion__content {
-  display: none;
+  transition: all 0.25s ease-in-out;
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
 }
 
 .accordion__input {
   display: none;
 }
 .accordion__input:checked ~ .accordion__content {
-  display: block;
+  opacity: 1;
+  transform: translate(0, 0);
+  max-height: 80px;
 }
 .accordion__input:checked ~ .accordion__label::after {
   transform: translateY(-50%) rotate(180deg);

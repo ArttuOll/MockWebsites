@@ -51,7 +51,7 @@ body {
   margin-right: 1rem;
 
   &:hover {
-    @extend %text_title
+    @extend %text_title;
   }
 
   &::after {
@@ -69,14 +69,20 @@ body {
 
 .accordion__content {
   @extend %text_body;
-  display: none;
+  transition: all 0.25s ease-in-out;
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
 }
 
 .accordion__input {
   display: none;
 
   &:checked ~ .accordion__content {
-    display: block;
+    opacity: 1;
+    transform: translate(0, 0);
+    max-height: 80px;
   }
 
   &:checked ~ .accordion__label::after {
