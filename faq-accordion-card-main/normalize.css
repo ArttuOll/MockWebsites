@@ -351,16 +351,9 @@ template {
 /* My additions
    ========================================================================== */
 
-/**
-* Prevent backgrounds from repeating by default
- */
-
-* {
-    background-repeat: no-repeat;
-}
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+    background-repeat: no-repeat;
 }
