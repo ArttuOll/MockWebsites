@@ -1,6 +1,13 @@
+$font_size: 1.2rem;
+
 %text_body {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: $font_size;
+}
+
+%text_title {
+  font-weight: 700;
+  font-size: $font_size;
 }
 
 html {
@@ -44,7 +51,7 @@ body {
   margin-right: 1rem;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    @extend %text_title
   }
 
   &::after {
