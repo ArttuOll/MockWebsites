@@ -51,7 +51,7 @@ body {
   margin-right: 1rem;
 
   &:hover {
-    @extend %text_title;
+    color: hsl(14, 88%, 65%)
   }
 
   &::after {
@@ -85,7 +85,12 @@ body {
     max-height: 80px;
   }
 
+  &:checked ~ .accordion__label {
+    @extend %text_title;
+  }
+
   &:checked ~ .accordion__label::after {
+    @extend %text_title;
     transform: translateY(-50%) rotate(180deg);
   }
 }
