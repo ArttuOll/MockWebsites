@@ -45,7 +45,6 @@ body {
   position: relative;
   transition: background 0.1s;
   padding: 0.5rem 0 0.5rem 0;
-  margin-right: 1rem;
 }
 .accordion__label:hover {
   color: #f47c57;
@@ -65,6 +64,7 @@ body {
 .accordion__content {
   transition: all 0.25s ease-in-out;
   margin-top: 0;
+  margin-bottom: 0;
   max-height: 0;
   opacity: 0;
   transform: translate(0, 50%);
@@ -76,7 +76,8 @@ body {
 .accordion__input:checked ~ .accordion__content {
   opacity: 1;
   transform: translate(0, 0);
-  max-height: 80px;
+  max-height: 100px;
+  padding: 1rem 0 1rem 0;
 }
 .accordion__input:checked ~ .accordion__label::after {
   transform: translateY(-50%) rotate(180deg);

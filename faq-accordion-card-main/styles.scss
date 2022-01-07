@@ -48,7 +48,6 @@ body {
   position: relative;
   transition: background 0.1s;
   padding: 0.5rem 0 0.5rem 0;
-  margin-right: 1rem;
 
   &:hover {
     color: hsl(14, 88%, 65%)
@@ -71,6 +70,7 @@ body {
   @extend %text_body;
   transition: all 0.25s ease-in-out;
   margin-top: 0;
+  margin-bottom: 0;
   max-height: 0;
   opacity: 0;
   transform: translate(0, 50%);
@@ -82,7 +82,8 @@ body {
   &:checked ~ .accordion__content {
     opacity: 1;
     transform: translate(0, 0);
-    max-height: 80px;
+    max-height: 100px;
+    padding: 1rem 0 1rem 0;
   }
 
   &:checked ~ .accordion__label {
