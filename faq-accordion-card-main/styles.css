@@ -11,14 +11,17 @@ body {
 
 .card {
   display: flex;
-  position: absolute;
-  top: 90%;
-  left: 10%;
+  position: relative;
   background-color: white;
   border-radius: 15px;
-  width: 80%;
+  max-width: 1000px;
   box-shadow: 0 25px 20px rgba(0, 0, 0, 0.2);
   max-height: 500px;
+  margin: 16rem auto;
+}
+
+.attribution {
+  text-align: center;
 }
 
 .accordion__content, .accordion__label {
@@ -37,6 +40,7 @@ body {
   background: rgba(0, 0, 0, 0);
   list-style: none;
   padding-left: 0;
+  flex: 1;
 }
 
 .accordion__label {
@@ -90,6 +94,7 @@ body {
 
 .images {
   overflow: hidden;
+  flex: 1;
 }
 
 .woman-online {
@@ -103,6 +108,13 @@ body {
   position: relative;
   right: 572px;
   bottom: 295px;
+}
+
+.card__box {
+  position: absolute;
+  top: 44%;
+  transform: translateX(-54%);
+  z-index: 2;
 }
 
 /*# sourceMappingURL=styles.css.map */

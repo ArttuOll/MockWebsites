@@ -16,7 +16,12 @@ body {
   left: 10%;
   background-color: white;
   border-radius: 15px;
-  width: 80%;
+  max-width: 1000px;
   box-shadow: 0 25px 20px rgb(0, 0, 0, 0.2);
   max-height: 500px;
+  margin: 16rem auto;
+}
+
+.attribution {
+  text-align: center;
 }
