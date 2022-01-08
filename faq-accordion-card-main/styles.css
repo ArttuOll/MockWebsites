@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(#af67e9, #6565e7);
+  position: relative;
+  height: 400px;
+}
+
+.card {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  background-color: white;
+  border-radius: 15px;
+  width: 80%;
+  box-shadow: 0 25px 20px rgba(0, 0, 0, 0.2);
+}
+
+.accordion__content, .accordion__label {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.accordion__input:checked ~ .accordion__label::after, .accordion__input:checked ~ .accordion__label {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.accordion {
+  width: 500px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0);
+  list-style: none;
+  padding-left: 0;
+}
+
+.accordion__label {
+  display: block;
+  color: #1d1e35;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+  padding: 0.5rem 0 0.5rem 0;
+}
+.accordion__label:hover {
+  color: #f47c57;
+}
+.accordion__label::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 10px;
+  height: 7px;
+  background-image: url("images/icon-arrow-down.svg");
+  transition: transform 0.2s;
+}
+
+.accordion__content {
+  transition: all 0.25s ease-in-out;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+
+.accordion__input {
+  display: none;
+}
+.accordion__input:checked ~ .accordion__content {
+  opacity: 1;
+  transform: translate(0, 0);
+  max-height: 100px;
+  padding: 1rem 0 1rem 0;
+}
+.accordion__input:checked ~ .accordion__label::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.divider {
+  border: 1px solid #e7e7e9;
+}
+
+.images {
+  background-color: white;
+}
+
+.woman-online {
+  background-color: black;
+  transform: translateX(-50%);
+}
+
+/*# sourceMappingURL=styles.css.map */
