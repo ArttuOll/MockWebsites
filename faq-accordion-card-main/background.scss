@@ -11,9 +11,7 @@ body {
 
 .card {
   display: flex;
-  position: absolute;
-  top: 90%;
-  left: 10%;
+  position: relative;
   background-color: white;
   border-radius: 15px;
   max-width: 1000px;
