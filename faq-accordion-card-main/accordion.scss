@@ -10,6 +10,10 @@ $font_size: 1.2rem;
   font-size: $font_size;
 }
 
+.accordion-container {
+  padding: 3.2rem 3rem 0 0;
+}
+
 .accordion {
   width: 500px;
   overflow: hidden;

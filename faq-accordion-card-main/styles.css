@@ -16,7 +16,7 @@ body {
   border-radius: 15px;
   max-width: 1000px;
   box-shadow: 0 25px 20px rgba(0, 0, 0, 0.2);
-  max-height: 500px;
+  max-height: 600px;
   margin: 16rem auto;
 }
 
@@ -32,6 +32,10 @@ body {
 .accordion__input:checked ~ .accordion__label::after, .accordion__input:checked ~ .accordion__label {
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+.accordion-container {
+  padding: 3.2rem 3rem 0 0;
 }
 
 .accordion {
@@ -112,7 +116,7 @@ body {
 
 .card__box {
   position: absolute;
-  top: 44%;
+  top: 36%;
   transform: translateX(-54%);
   z-index: 2;
 }
