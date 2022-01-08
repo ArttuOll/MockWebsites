@@ -18,6 +18,7 @@ body {
   border-radius: 15px;
   width: 80%;
   box-shadow: 0 25px 20px rgba(0, 0, 0, 0.2);
+  max-height: 500px;
 }
 
 .accordion__content, .accordion__label {
@@ -92,7 +93,16 @@ body {
 }
 
 .woman-online {
-  transform: translateX(-17%);
+  position: relative;
+  right: 80px;
+  bottom: 870.25px;
+  z-index: 1;
+}
+
+.bg-pattern {
+  position: relative;
+  right: 572px;
+  bottom: 295px;
 }
 
 /*# sourceMappingURL=styles.css.map */

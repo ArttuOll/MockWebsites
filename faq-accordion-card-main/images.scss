@@ -1,7 +1,19 @@
+$images_location_y: 295px;
+
 .images {
   overflow: hidden;
 }
 
 .woman-online {
-  transform: translateX(-17%);
+  position: relative;
+  right: 80px;
+  bottom: $images_location_y * 2.95;
+  z-index: 1;
 }
+
+.bg-pattern {
+  position: relative;
+  right: 572px;
+  bottom: $images_location_y;
+}
+
