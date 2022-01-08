@@ -88,12 +88,11 @@ body {
 }
 
 .images {
-  background-color: white;
+  overflow: hidden;
 }
 
 .woman-online {
-  background-color: black;
-  transform: translateX(-50%);
+  transform: translateX(-17%);
 }
 
 /*# sourceMappingURL=styles.css.map */
