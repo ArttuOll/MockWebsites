@@ -107,6 +107,10 @@ body {
     margin: 0 auto;
     padding: 3rem 3rem;
   }
+
+  .card__heading {
+    text-align: center;
+  }
 }
 .card__images {
   overflow: hidden;
