@@ -43,7 +43,7 @@ body {
   padding: 3.2rem 3rem 0 0;
 }
 
-.accordion {
+.card__accordion {
   width: 500px;
   overflow: hidden;
   background: rgba(0, 0, 0, 0);
@@ -101,7 +101,7 @@ body {
   border: 1px solid #e7e7e9;
 }
 
-.images {
+.card__images {
   overflow: hidden;
   flex: 1;
 }
