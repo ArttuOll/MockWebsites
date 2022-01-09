@@ -25,12 +25,13 @@ body {
 
 .attribution {
   text-align: center;
-  padding-top: 3rem;
+  padding: 2rem 0;
 }
 
 @media only screen and (max-width: 900px) {
   .card {
     flex-direction: column;
     max-height: 100%;
+    margin-top: 8rem;
   }
 }
