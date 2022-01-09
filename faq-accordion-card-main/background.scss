@@ -1,12 +1,14 @@
+$background_purple: hsl(273, 75%, 66%);
+$background_blue: hsl(240, 73%, 65%);
+
 html {
   height: 100%;
 }
 
 body {
   font-family: "Kumbh Sans", sans-serif;
-  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  position: relative;
-  height: 400px;
+  background-image: linear-gradient($background_purple, $background_blue);
+  background-color: $background_blue;
 }
 
 .card {
@@ -17,9 +19,10 @@ body {
   max-width: 1000px;
   box-shadow: 0 25px 20px rgb(0, 0, 0, 0.2);
   max-height: 600px;
-  margin: 16rem auto;
+  margin: 11rem auto 0 auto;
 }
 
 .attribution {
   text-align: center;
+  padding-top: 3rem;
 }
