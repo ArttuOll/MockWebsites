@@ -28,6 +28,8 @@ body {
   .card {
     flex-direction: column;
     max-height: 100%;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
 }
 .accordion__content, .accordion__label {
@@ -46,7 +48,6 @@ body {
 }
 
 .card__accordion {
-  width: 500px;
   overflow: hidden;
   background: rgba(0, 0, 0, 0);
   list-style: none;
@@ -105,6 +106,7 @@ body {
 @media only screen and (max-width: 900px) {
   .accordion-container {
     margin: 0 auto;
+    padding: 3rem 3rem;
   }
 }
 .card__images {

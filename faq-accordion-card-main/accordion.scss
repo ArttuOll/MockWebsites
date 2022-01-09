@@ -16,7 +16,6 @@ $font_size: 1.2rem;
 }
 
 .card__accordion {
-  width: 500px;
   overflow: hidden;
   background: rgba(0, 0, 0, 0);
   list-style: none;
@@ -86,5 +85,6 @@ $font_size: 1.2rem;
 @media only screen and (max-width: 900px) {
   .accordion-container {
     margin: 0 auto;
+    padding: 3rem 3rem;
   }
 }
