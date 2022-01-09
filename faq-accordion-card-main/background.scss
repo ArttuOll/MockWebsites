@@ -9,6 +9,7 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   background-image: linear-gradient($background_purple, $background_blue);
   background-color: $background_blue;
+  padding: 0 2rem;
 }
 
 .card {
@@ -31,7 +32,5 @@ body {
   .card {
     flex-direction: column;
     max-height: 100%;
-    margin-right: 2rem;
-    margin-left: 2rem;
   }
 }

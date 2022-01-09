@@ -6,6 +6,7 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   background-image: linear-gradient(#af67e9, #6565e7);
   background-color: #6565e7;
+  padding: 0 2rem;
 }
 
 .card {
@@ -28,8 +29,6 @@ body {
   .card {
     flex-direction: column;
     max-height: 100%;
-    margin-right: 2rem;
-    margin-left: 2rem;
   }
 }
 .accordion__content, .accordion__label {
