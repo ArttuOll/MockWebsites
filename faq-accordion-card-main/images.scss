@@ -43,4 +43,12 @@ $images_location_y: 295px;
     transform: translateY(-5%);
     flex: 1;
   }
+
+  .woman-online--mobile {
+    display: block;
+    max-width: 15rem;
+    position: absolute;
+    left: calc(50% - 120px);
+    top: -112px;
+  }
 }
