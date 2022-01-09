@@ -12,6 +12,7 @@ $font_size: 1.2rem;
 
 .accordion-container {
   padding: 3.2rem 3rem 0 0;
+  flex: 1;
 }
 
 .card__accordion {
@@ -20,7 +21,6 @@ $font_size: 1.2rem;
   background: rgba(0, 0, 0, 0);
   list-style: none;
   padding-left: 0;
-  flex: 1;
 }
 
 .accordion__label {
@@ -81,4 +81,10 @@ $font_size: 1.2rem;
 
 .divider {
   border: 1px solid hsl(240, 5%, 91%);
+}
+
+@media only screen and (max-width: 900px) {
+  .accordion-container {
+    margin: 0 auto;
+  }
 }

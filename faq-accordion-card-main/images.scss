@@ -12,6 +12,10 @@ $images_location_y: 295px;
   z-index: 1;
 }
 
+.woman-online--mobile {
+  display: none;
+}
+
 .bg-pattern {
   position: relative;
   right: 572px;
@@ -23,4 +27,20 @@ $images_location_y: 295px;
   top: 36%;
   transform: translateX(-54%);
   z-index: 2;
+}
+
+@media only screen and (max-width: 900px) {
+  .card__box,
+  .woman-online,
+  .bg-pattern {
+    display: none;
+  }
+
+  .bg-pattern--mobile {
+    display: block;
+    max-width: 20rem;
+    margin: 0 auto;
+    transform: translateY(-5%);
+    flex: 1;
+  }
 }
