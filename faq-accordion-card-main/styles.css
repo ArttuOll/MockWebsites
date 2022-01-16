@@ -16,7 +16,7 @@ body {
   border-radius: 15px;
   max-width: 1000px;
   box-shadow: 0 25px 20px rgba(0, 0, 0, 0.2);
-  max-height: 600px;
+  max-height: 1000px;
   margin: 11rem auto 0 auto;
 }
 
@@ -122,6 +122,7 @@ body {
 .card__images {
   overflow: hidden;
   flex: 1;
+  max-height: 600px;
 }
 
 .woman-online {
@@ -143,7 +144,7 @@ body {
 
 .card__box {
   position: absolute;
-  top: 36%;
+  top: 220px;
   transform: translateX(-54%);
   z-index: 2;
 }
