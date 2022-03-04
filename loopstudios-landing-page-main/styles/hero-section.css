@@ -1,0 +1,11 @@
+.hero-section {
+  background-image: url("./images/desktop/image-hero.jpg");
+}
+
+.navbar__links {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+/*# sourceMappingURL=hero-section.css.map */

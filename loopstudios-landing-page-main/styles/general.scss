@@ -12,5 +12,26 @@ p, a, li {
   font-weight: 300;
 }
 
+@mixin general-horizontal-padding {
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
+@mixin custom-underline {
+  &:hover::after {
+    display: block;
+    content: '';
+    width: 50%;
+    height: 2px;
+    background: white;
+    margin-left: 25%;
+    margin-top: 0.5rem;
+  }
+
+  &:focus {
+    font-weight: bold;
+  }
+}
+
 $color-dark-gray: hsl(0, 0%, 55%);
 $color-very-dark-gray: hsl(0, 0%, 41%);

@@ -1,28 +1,19 @@
-p, a, li {
-  font-size: 15px;
-}
-
-p, a, li {
-  font-size: 15px;
-}
+@import "general";
 
 .hero-section {
   background-image: url("./images/desktop/image-hero.jpg");
   background-size: cover;
-  padding-left: 7vw;
-  padding-right: 7vw;
+  @include general-horizontal-padding;
   padding-top: 4rem;
   padding-bottom: min(10rem, 50vh);
-}
-@media (max-width: 600px) {
-  .hero-section {
+
+  @media (max-width: 600px) {
     background-image: url("./images/mobile/image-hero.jpg");
   }
 }
 
 .hero-section__title {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
+  @include font-style-heading;
   color: white;
   text-transform: uppercase;
   outline: 2px solid white;
@@ -48,29 +39,6 @@ p, a, li {
 .navbar__link {
   color: white;
   text-decoration: none;
-  font-family: "Alata", sans-serif;
-  font-weight: 400;
+  @include font-style-body;
+  @include custom-underline;
 }
-.navbar__link:hover::after {
-  display: block;
-  content: "";
-  width: 50%;
-  height: 2px;
-  background: white;
-  margin-left: 25%;
-  margin-top: 0.5rem;
-}
-.navbar__link:focus {
-  font-weight: bold;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
-}
-
-/*# sourceMappingURL=styles.css.map */
