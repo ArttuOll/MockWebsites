@@ -12,22 +12,31 @@
     type="image/png"
   />
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+        rel="stylesheet">
+
   <link href="reset.css" rel="stylesheet"/>
   <link href="styles.css" rel="stylesheet"/>
 
   <title>Frontend Mentor | Loopstudios landing page</title>
 </head>
 <body>
-<section aria-labelledby="hero-title">
-  <nav>
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">Events</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Support</a></li>
-    </ul>
-  </nav>
+<section aria-labelledby="hero-title" class="hero-section">
+  <div class="navbar">
+    <img alt="Loop Studios" src="images/logo.svg"/>
+    <nav>
+      <ul class="navbar__links">
+        <li class="navbar__link"><a href="#">About</a></li>
+        <li class="navbar__link"><a href="#">Careers</a></li>
+        <li class="navbar__link"><a href="#">Events</a></li>
+        <li class="navbar__link"><a href="#">Products</a></li>
+        <li class="navbar__link"><a href="#">Support</a></li>
+      </ul>
+    </nav>
+  </div>
   <h1 id="hero-title">Immersive experiences that deliver</h1>
 </section>
 
