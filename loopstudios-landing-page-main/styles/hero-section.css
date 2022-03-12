@@ -1,11 +1,63 @@
+p, a, li {
+  font-size: 15px;
+}
+
 .hero-section {
   background-image: url("./images/desktop/image-hero.jpg");
+  background-size: cover;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 4rem;
+  padding-bottom: min(10rem, 50vh);
+}
+@media (max-width: 600px) {
+  .hero-section {
+    background-image: url("./images/mobile/image-hero.jpg");
+  }
+}
+
+.hero-section__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  outline: 2px solid white;
+  font-size: clamp(2rem, 4vw, 10vw);
+  max-width: 35vmax;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 6rem;
 }
 
 .navbar__links {
   margin: 0;
   list-style: none;
   display: flex;
+  gap: 1rem;
+}
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+}
+.navbar__link:hover::after {
+  display: block;
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: white;
+  margin-left: 25%;
+  margin-top: 0.5rem;
+}
+.navbar__link:focus {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=hero-section.css.map */

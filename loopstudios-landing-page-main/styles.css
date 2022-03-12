@@ -9,8 +9,8 @@ p, a, li {
 .hero-section {
   background-image: url("./images/desktop/image-hero.jpg");
   background-size: cover;
-  padding-left: 7vw;
-  padding-right: 7vw;
+  padding-left: 9vw;
+  padding-right: 9vw;
   padding-top: 4rem;
   padding-bottom: min(10rem, 50vh);
 }
@@ -62,6 +62,48 @@ p, a, li {
 }
 .navbar__link:focus {
   font-weight: bold;
+}
+
+p, a, li {
+  font-size: 15px;
+}
+
+.vr-section {
+  padding-left: 9vw;
+  padding-right: 9vw;
+  display: flex;
+  position: relative;
+  margin: 10rem 0;
+}
+
+.vr-section__header {
+  position: absolute;
+  background-color: white;
+  right: 9vw;
+  bottom: -1px;
+  max-width: 35rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+
+.vr-section__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: max(1rem, 3vw);
+}
+
+.vr-section__text {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  color: #8c8c8c;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.vr-section__image {
+  max-width: 100%;
+  height: auto;
 }
 
 .attribution {

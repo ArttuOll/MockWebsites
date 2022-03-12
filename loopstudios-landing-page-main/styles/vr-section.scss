@@ -1,0 +1,36 @@
+@import "general";
+
+.vr-section {
+  @include general-horizontal-padding;
+  display: flex;
+  position: relative;
+  margin: 10rem 0;
+}
+
+.vr-section__header {
+  position: absolute;
+  background-color: white;
+  right: 9vw;
+  bottom: -1px;
+  max-width: 35rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+
+.vr-section__title {
+  @include font-style-heading;
+  text-transform: uppercase;
+  font-size: max(1rem, 3vw);
+}
+
+.vr-section__text {
+  @include font-style-body;
+  color: $color-dark-gray;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.vr-section__image {
+  max-width: 100%;
+  height: auto;
+}
