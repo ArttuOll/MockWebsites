@@ -4,8 +4,13 @@
   @include general-horizontal-padding;
 
   display: flex;
+  align-items: center;
   position: relative;
   margin: 10rem 0;
+
+  @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+  }
 }
 
 .vr-section__header {
@@ -16,13 +21,22 @@
   max-width: 35rem;
   padding-left: 5rem;
   padding-top: 3rem;
+
+  @media (max-width: $breakpoint-md) {
+    position: initial;
+    padding: 0;
+  }
 }
 
 .vr-section__title {
   @include font-style-heading;
 
   text-transform: uppercase;
-  font-size: max(1rem, 3vw);
+  font-size: max(2rem, 3vw);
+
+  @media (max-width: $breakpoint-md) {
+    text-align: center;
+  }
 }
 
 .vr-section__text {
@@ -31,6 +45,10 @@
   color: $color-dark-gray;
   line-height: 1.6;
   margin-bottom: 0;
+
+  @media (max-width: $breakpoint-md) {
+    text-align: center;
+  }
 }
 
 .vr-section__image {
