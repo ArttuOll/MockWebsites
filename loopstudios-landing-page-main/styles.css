@@ -7,10 +7,10 @@ p, a, li {
 }
 
 .hero-section {
-  background-image: url("./images/desktop/image-hero.jpg");
-  background-size: cover;
   padding-left: 9vw;
   padding-right: 9vw;
+  background-image: url("./images/desktop/image-hero.jpg");
+  background-size: cover;
   padding-top: 4rem;
   padding-bottom: min(10rem, 50vh);
 }
@@ -48,7 +48,7 @@ p, a, li {
 .navbar__link {
   color: white;
   text-decoration: none;
-  font-family: "Alata", sans-serif;
+  font-family: Alata, sans-serif;
   font-weight: 400;
 }
 .navbar__link:hover::after {
@@ -94,7 +94,7 @@ p, a, li {
 }
 
 .vr-section__text {
-  font-family: "Alata", sans-serif;
+  font-family: Alata, sans-serif;
   font-weight: 400;
   color: #8c8c8c;
   line-height: 1.6;

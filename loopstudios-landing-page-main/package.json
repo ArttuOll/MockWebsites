@@ -11,5 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "stylelint": "14.6.1",
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-prettier-scss": "0.0.1",
+    "stylelint-config-standard-scss": "3.0.0"
   }
 }

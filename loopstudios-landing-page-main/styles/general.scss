@@ -3,7 +3,7 @@ p, a, li {
 }
 
 @mixin font-style-body {
-  font-family: "Alata", sans-serif;
+  font-family: Alata, sans-serif;
   font-weight: 400;
 }
 
@@ -33,5 +33,5 @@ p, a, li {
   }
 }
 
-$color-dark-gray: hsl(0, 0%, 55%);
-$color-very-dark-gray: hsl(0, 0%, 41%);
+$color-dark-gray: hsl(0deg 0% 55%);
+$color-very-dark-gray: hsl(0deg 0% 41%);

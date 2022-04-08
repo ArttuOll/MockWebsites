@@ -1,9 +1,10 @@
 @import "general";
 
 .hero-section {
+  @include general-horizontal-padding;
+
   background-image: url("./images/desktop/image-hero.jpg");
   background-size: cover;
-  @include general-horizontal-padding;
   padding-top: 4rem;
   padding-bottom: min(10rem, 50vh);
 
@@ -14,6 +15,7 @@
 
 .hero-section__title {
   @include font-style-heading;
+
   color: white;
   text-transform: uppercase;
   outline: 2px solid white;

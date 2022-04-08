@@ -2,6 +2,7 @@
 
 .vr-section {
   @include general-horizontal-padding;
+
   display: flex;
   position: relative;
   margin: 10rem 0;
@@ -19,12 +20,14 @@
 
 .vr-section__title {
   @include font-style-heading;
+
   text-transform: uppercase;
   font-size: max(1rem, 3vw);
 }
 
 .vr-section__text {
   @include font-style-body;
+
   color: $color-dark-gray;
   line-height: 1.6;
   margin-bottom: 0;
